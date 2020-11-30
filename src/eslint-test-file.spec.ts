@@ -1,5 +1,5 @@
-function example (): string {
-  return 'teste'
-}
-
-export { example }
+describe('a', () => {
+  test('a', () => {
+    expect(1).toBe(1)
+  })
+})
